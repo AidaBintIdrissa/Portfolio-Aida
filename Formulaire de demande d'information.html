@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Aida</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Aida Seck</h1>
+      <ul>
+       <li><a href="Acceuil.html">Accueil</a></li>
+        <li><a href="A propos.html">À propos</a></li>
+        <li><a href="Competence.html">Compétences</a></li>
+        <li><a href="Projets.html">Projets</a></li>
+        <li><a href="Activites sportives et hobbies.html">Activites sportives et hobbies</a></li>
+        <li><a href="Formulaire de demande d'information.html" class="active">Formulaire de demande d'information</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="Formulaire de demande d'information"></section>
+      <h2>Contactez-moi</h2> 
+      <form id="contactForm">
+        <label>Prenom :</label>
+         <input type="prenoum" id="prénom" placeholder="Entrez votre prénom" required/>
+        <label>Nom :</label>
+         <input type="noum" id="nom" placeholder="Entrez votre nom" required/>
+        <label>Email :</label>
+        <input type="email" id="email" placeholder="Entrez votre email" required/>
+        <label>Message :</label>
+        <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+      <p id="messageEnvoye"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aida - Tous droits réservés</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
